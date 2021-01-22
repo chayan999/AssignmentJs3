@@ -10,8 +10,8 @@ function kilometerToMeter(kilometer) {
     return result;
 }
     //check for positive value
-    var meter = kilometerToMeter(20);
-    //console.log(meter);
+    //var meter = kilometerToMeter(20);
+    console.log(meter);
     //check for negative value.
     var meter = kilometerToMeter(-20);
     //console.log(meter);
@@ -54,7 +54,7 @@ function hotelCost(days) {
     }
     return totalDayCost;
 }
-     //var result = hotelCost(30);
+     var result = hotelCost(30);
      //console.log(result);
 
             //Fourth Function
